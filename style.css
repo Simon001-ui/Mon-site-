@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.clignotant {
+    animation: clignoter 1s infinite;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes clignoter {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: darkgreen;
+}
